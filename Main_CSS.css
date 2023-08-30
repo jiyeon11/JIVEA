@@ -1,0 +1,52 @@
+.logo-font{  /*로고 폰트*/
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Black Han Sans', sans-serif;
+}
+/*바디*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*검색 입력 칸*/
+.search-box{
+    padding: 7px;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    font-size: 20px;
+    width: 600px;
+}
+/*메뉴 줄*/
+.menu-container{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: center;
+}
+/*검색 버튼*/
+.search-button{
+    border: none;
+    background-color: transparent;
+    background-image: url("images/검색.png");
+    background-size: cover;
+}
+/*메뉴*/
+.menu{
+    padding: 7px;
+    width: 36px;
+    height: 36px;
+    margin-right: 20px;
+}
+/*계정*/
+.user-button{
+    border: none;
+    background-color: transparent;
+    background-image: url("images/계정.png");
+    background-size: cover;
+}
+/*찜*/
+.like-button{
+    border: none;
+    background-color: transparent;
+    background-image: url("images/찜.png");
+    background-size: cover;
+}
