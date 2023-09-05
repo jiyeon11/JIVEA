@@ -8,29 +8,83 @@
     <!-- 구글폰트 -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap" rel="stylesheet">
-
-    <title>JiStore</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dongle&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+    <title>JIVEA</title>
 </head>
 <body>
     <header>
-        <div class = "logo-font">JiStore</div>  <!-- 로고 -->
-        <hr>
-        <div class="menu-container">
-            <input type="text" class = "search-box" placeholder="검색할 상품을 입력하세요" id="search">
-            <button class = "search-button menu" title = "검색"></button> <!--검색 버튼 -->
-            <button class = "like-button menu" title = "찜"></button><!--찜 버튼 -->
-            <button class = "user-button menu"></button> <!--계정 버튼 -->
-        </div>
+        <div class = "logo-font">JIVEA</div>  <!-- 로고 -->
     </header>
+
+    <!-- 메뉴-->
+    <ul class="menu">
+        <li>
+            <a href="#">베스트</a>
+        </li>
+        <li>
+            <a href="#">전체상품</a>
+        </li>
+        <li>
+            <a href="#">선케어∨</a>
+            <ul class="depth_1">
+                <li><a href="#">멀티</a></li>
+                <li><a href="#">페이스</a></li>
+                <li><a href="#">키즈</a></li>
+                <li><a href="#">바디</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="#">데오드란트∨</a>
+            <ul class="depth_1">
+                <li><a href="#">여성 데오</a></li>
+                <li><a href="#">남성 데오</a></li>
+                <li><a href="#">내추럴리 굿</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="#">니베아 맨∨</a>
+            <ul class="depth_1">
+                <li><a href="#">스킨케어</a></li>
+                <li><a href="#">쉐이빙</a></li>
+                <li><a href="#">데오드란트</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="#">페이스케어∨</a>
+            <ul class="depth_1">
+                <li><a href="#">립케어</a></li>
+                <li><a href="#">클렌징</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="#">니베아크림∨</a>
+            <ul class="depth_1">
+                <li><a href="#">크림</a></li>
+                <li><a href="#">소프트크림</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="#">바디케어∨</a>
+            <ul class="depth_1">
+                <li><a href="#">산뜻한 제형</a></li>
+                <li><a href="#">풍부한 보습</a></li>
+                <li><a href="#">인샤워</a></li>
+                <li><a href="#">내추럴리굿</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="#">핸드케어∨</a>
+            <ul class="depth_1">
+                <li><a href="#">니베아</a></li>
+                <li><a href="#">아트릭스</a></li>
+            </ul>
+        </li>
+        <input type="text" class = "search-box" placeholder="검색어를 입력해보세요" id="search">
+      </ul>
+    
     <!-- 배너 -->
     <div id="slider">
         <figure>
-            <img src="/images/육회.jpg" alt="">
-            <img src="/images/탕후루.jpg" alt="">
-            <img src="/images/벌꿀집.jpg" alt="">
-            <img src="/images/딱새우회.jpg" alt="">
-            <img src="/images/도넛.jpg" alt="">
         </figure>
     </div>
 </body>
