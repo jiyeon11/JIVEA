@@ -12,6 +12,7 @@
 /*바디*/
 body{
     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
 }
 /*검색 입력 칸*/
 .search-box{
@@ -76,6 +77,8 @@ a{
     background-image: url("images/검색.png");
     background-size: cover;
 }
+
+
 
 /*배너*/
 [name="slide"] {display: none;}
@@ -162,4 +165,24 @@ a{
     75% { left: 100%; }
     98% { left: 100%; }
     100% { left: 0%; }
+}
+.product {
+    padding: 10px;
+    margin: 10px;
+    width: 500px;
+    text-align: center;
+    display: inline-block;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+}
+.sale {
+    color: red;
+    font-weight: bold;
+}
+.price {
+    color: black;
+    font-weight: bold;
 }
