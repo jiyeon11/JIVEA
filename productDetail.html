@@ -81,9 +81,43 @@
             </ul>
         </li>
         <input type="text" class="search-box" placeholder="검색어를 입력해보세요" id="search">
+        <button type="submit" class="search-button" title="검색"></button> <!--검색 버튼 -->
     </ul>
     <br>
     <hr>
+    <div class="container">
+        <div class="half-container">
+            <img src="images/product1.jpg" alt="립밤">
+        </div>
+        <div class="half-container">
+            <h4>니베아 립케어 히알루론 모이스쳐 플러스 4.8g x 4개 / 립밤</h4>
+            <p class="discount-rate" style="display: inline">22%</p>
+            <del style="display: inline;">23,600</del>
+            <p class="price" style="display: inline;">18,300원</p>
+            <h4 style="margin-top: 20px;">배송정보</h4>
+            <p class="delivery">일반배송 | 무료배송 ⦁ CJ대한통운</p>
+            <!-- 제품 선택칸 -->
+            <select id="product-selection">
+                <option value="" selected disabled>선택</option>
+                <option value="product1">제품 1</option>
+                <option value="product2">제품 2</option>
+                <option value="product3">제품 3</option>
+            </select>
+            <!-- 금액 -->
+            <div class="amount">
+                <h4>총 상품 금액</h4>
+                <p>0원</p>
+                <hr>
+            </div>
+            <!-- 구매하기 버튼 -->
+            <div class="buy">
+                <button type="submit" class="button">구매하기</button>
+            </div>
+            <div class="buttons">
+                <button>찜하기</button>
+                <button>장바구니</button>
+            </div>
+        </div>
+    </div>
 </body>
-
 </html>

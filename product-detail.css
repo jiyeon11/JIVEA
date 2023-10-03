@@ -1,0 +1,160 @@
+ /*로고 폰트*/
+.logo-font{
+    font-family: 'Dongle', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 35px;
+    padding: 15px;
+    text-align: center;
+    color: rgb(51, 51, 179);
+}
+/*검색 입력 칸*/
+.search-box{
+    padding: 7px;
+    border: 1px solid #ccc;
+    border-radius: 40px;
+    font-size: 13px;
+    width: 200px;
+}
+/*검색 버튼*/
+.search-button{
+    border: none;
+    background-color: transparent;
+    background-image: url("images/search.png");
+    background-size: cover;
+    width: 35px;
+    height: 35px;
+}
+/*메뉴*/
+.menu{
+    display: flex;
+    justify-content: center;
+}
+ul{
+    list-style:none;
+    margin:0; 
+    padding:0px;
+}
+a{
+    text-decoration:none; color:rgb(255, 255, 255);
+}
+.menu:after{
+    display:block; content:''; clear:both;
+}
+.menu > li{
+    position:relative; float:left; margin-right:5px;
+}
+.menu > li > a{
+    display:block; 
+    padding:0 15px; 
+    background:rgba(161, 33, 33, 0); 
+    height:40px; 
+    line-height:40px;
+    color:rgb(0, 0, 0);
+}
+.menu > li:hover .depth_1 {
+    z-index: 1;
+    display:block;
+}
+.menu .depth_1{
+    z-index: 1;
+    display:none; 
+    position:absolute; 
+    top: 100%;
+    left:0; 
+    right:0; 
+    text-align:center;
+}
+.menu .depth_1 a{
+    z-index: 1;
+    display:block; 
+    padding:5px; 
+    background:rgb(255, 255, 255); 
+    color:rgb(0, 0, 0); 
+    border: 1px solid rgb(0, 0, 0);
+}
+/* 큰 컨테이너 */
+.container {
+    display: flex;
+    justify-content: center; /* 수평 가운데 정렬 */
+}
+/*반쪽 컨테이너*/
+.half-container {
+    width: 50%;
+    max-width: 500px;  /* 박스 길이 */
+    height: 100vh;
+    height: auto;
+    float: left;
+    box-sizing: border-box;
+    border: 0.2px solid rgb(203, 203, 203);
+    padding: 20px 20px 0 20px;
+}
+/* 반쪽 컨테이너 이미지 */
+.half-container img{
+    padding: 10px;
+    margin: 10px;
+    width: 90%;
+    max-width: 100%;
+    display: block;
+    height: auto;
+    float: right;
+}
+.half-container h4 {
+    font-size: 18px;
+    margin: 0;
+}
+/* 할인율 */
+.discount-rate {
+    color: rgb(212, 18, 18);
+    font-size: 30px;
+}
+/* 가격 */
+.price {
+    text-align: right;
+    font-weight: bold;
+    font-size: 25px;
+}
+/* 원래 가격 */
+.half-container del{
+    color: grey;
+    font-weight: bolder;
+    font-size: 20px;
+}
+/* 배송정보 */
+.delivery{
+    margin-top: 10px;
+}
+/* 제품 선택칸 */
+#product-selection{
+    width: 460px;
+    height: 40px;
+    font-size: 18px;
+}
+.buy{
+    padding-top: 10px;
+}
+/* 구매하기 버튼 */
+.button{
+    width: 460px;
+    height: 50px;
+    font-size: 20px;
+}
+/* 총 금액 */
+.amount{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.amount p{
+    font-size: 18px;
+    font-weight: 1000;
+    display: inline;
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.buttons button{
+    width: 48%;
+    height: 50px;
+    font-size: 20px;
+}

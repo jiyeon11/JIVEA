@@ -22,6 +22,15 @@ body{
     font-size: 13px;
     width: 200px;
 }
+/*검색 버튼*/
+.search-button{
+    border: none;
+    background-color: transparent;
+    background-image: url("images/search.png");
+    background-size: cover;
+    width: 35px;
+    height: 35px;
+}
 /*메뉴*/
 .menu{
     display: flex;
@@ -70,16 +79,6 @@ a{
     color:rgb(0, 0, 0); 
     border: 1px solid rgb(0, 0, 0);
 }
-
-/*검색 버튼*/
-.search-button{
-    border: none;
-    background-color: transparent;
-    background-image: url("images/검색.png");
-    background-size: cover;
-}
-
-
 
 /*배너*/
 [name="slide"] {display: none;}
